@@ -10,23 +10,24 @@ export default function _layout() {
           backgroundColor: Colors.bgColor,
           borderTopWidth: 0,
           padding: 0,
-          height: 70
+          height: 70,
+          paddingBottom: 20
         },
         tabBarLabelStyle: {
-          fontSize: 16
+          fontSize: 14
         }
       }}>
       <Tabs.Screen name='index'  options={{tabBarLabel: "Home",tabBarIcon: ({color}) => (
-        <Ionicons name='home' size={34} color={ color } />
+        <Ionicons name='home' size={24} color={ color } />
       )}} /> 
       <Tabs.Screen name='my_ticket' options={{tabBarLabel: "My Ticket", tabBarIcon: ({color}) => (
-        <Ionicons name='ticket' size={34} color={ color } />
+        <Ionicons name='ticket' size={24} color={ color } />
       )}} />
       <Tabs.Screen name='favorite' options={{tabBarLabel: "Favorite", tabBarIcon: ({color}) => (
-       <MaterialIcons name="favorite" size={34} color={ color } />
+       <MaterialIcons name="favorite" size={24} color={ color } />
       )}} />
       <Tabs.Screen name='profile' options={{tabBarLabel: "Profile", tabBarIcon: ({color}) => (
-       <FontAwesome name="user" size={34} color={ color } />
+       <FontAwesome name="user" size={24} color={ color } />
       )}}/>
      </Tabs>
   )
