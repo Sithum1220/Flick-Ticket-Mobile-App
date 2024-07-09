@@ -21,19 +21,19 @@ const home = () => {
             source={profilePic}
             className="w-[65px] h-[65px] rounded-full"
           />
-          <View className="ml-6">
+          <View className="ml-[5%]">
             <Text className="text-lg text-gray-500">Welcome Back,</Text>
             <Text className="text-2xl font-bold">Minato Namikaza</Text>
           </View>
         </View>
         <TouchableOpacity>
           <View className="bg-red-400 p-2 rounded-lg">
-          <Ionicons name='notifications' size={32} color={Colors.white} />
+          <Ionicons name='notifications' size={24} color={Colors.white} />
           </View>
         </TouchableOpacity>
       </View>
-      <View className="flex-row items-center bg-gray-200 rounded-lg mt-[10%] px-4 py-4">
-        <Text className="text-gray-500">🔍</Text>
+      <View className="flex-row items-center bg-gray-200 rounded-xl mt-[6%] px-4 py-4">
+        <Ionicons name='search' size={32} color={Colors.primaryColor} />
         <TextInput
           placeholder="Search"
           className="ml-2 flex-1 text-[10pxr] text-gray-700"
