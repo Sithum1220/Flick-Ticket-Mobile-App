@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const index = () => {
+const Profile = () => {
   return (
     <View className='flex-1 justify-center items-center'>
-      <Text>Page</Text>
+      <Text>Profile</Text>
     </View>
   )
-}  
+}
 
-export default index
+export default Profile
