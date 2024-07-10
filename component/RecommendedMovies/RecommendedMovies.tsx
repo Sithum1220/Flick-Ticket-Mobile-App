@@ -1,6 +1,7 @@
 import { View, Text, FlatList, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 import RecommendedMovie from '@/data/recommended-movies.json';
+import { Link } from 'expo-router';
 
 const RecommendedMovies = () => {
   return (
@@ -17,6 +18,7 @@ const RecommendedMovies = () => {
       }}
       renderItem={({item, index}) => (
         <View key={index} className='w-44'>
+            <Link href={`/navigation/recent-upcoming/${item.id}`} asChild>
             <TouchableOpacity>
                 <Image source={{ uri: item.image }} className="w-full h-60 rounded-xl" />
                 <View className='flex justify-between flex-row mt-[6%]'>
@@ -27,6 +29,7 @@ const RecommendedMovies = () => {
                     </View>
                 </View>
             </TouchableOpacity>
+            </Link>
         </View>
       )}
       />
