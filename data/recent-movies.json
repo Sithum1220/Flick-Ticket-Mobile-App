@@ -1,16 +1,19 @@
 [
     {
-        "image":"../assets/images/recent_movies/turning_red.png",
+        "id":"1",
+        "image":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D1132186CE39FC2A0B8DBC78BFF949962591F6A935E294D3FCC5CBCF64B33B6C/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
         "title":"Turning Red",
         "bookingOpenDate":"Booking Open Date July 22, 2024"
     },
     {
-        "image":"../assets/images/recent_movies/bad-boys.jpg",
+        "id":"2",
+        "image":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D1132186CE39FC2A0B8DBC78BFF949962591F6A935E294D3FCC5CBCF64B33B6C/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
         "title":"Bad Boys Red",
         "bookingOpenDate":"Booking Open Date July 22, 2024"
     },
     {
-        "image":"../assets/images/recent_movies/incredible.png",
+        "id":"3",
+        "image":"https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D1132186CE39FC2A0B8DBC78BFF949962591F6A935E294D3FCC5CBCF64B33B6C/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
         "title":"Incredibles",
         "bookingOpenDate":"Booking Open Now"
     }

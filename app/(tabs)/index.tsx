@@ -6,7 +6,6 @@ import { Ionicons } from '@expo/vector-icons'
 import Colors from '@/constants/Colors'
 import {useHeaderHeight} from '@react-navigation/elements'
 import RecentMovieCard from '@/component/RecentMovieCard/RecentMovieCard'
-import LanguageButton from '@/component/LanguageButton/LanguageButton'
 
 const home = () => {
   const headerHeight = useHeaderHeight();
@@ -41,7 +40,7 @@ const home = () => {
           className="ml-2 flex-1 text-[10pxr] text-gray-700"
         />
       </View>
-          <RecentMovieCard />
+    <RecentMovieCard />
     </View>
 </>
   )
