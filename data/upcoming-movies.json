@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "image": "https://m.media-amazon.com/images/M/MV5BNjRmNDI5MjMtMmFhZi00YzcwLWI4ZGItMGI2MjI0N2Q3YmIwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+        "title": "Black Widow",
+        "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
+        "imdbRating": "8.1"
+    },
+    {
+        "id": "2",
+        "image": "https://m.media-amazon.com/images/M/MV5BZjhmZTlkOTAtYTE0Yi00Yjg2LTg5M2UtNWNmNTZkZGM4ODRmXkEyXkFqcGdeQXVyMTI4NjgxNTk5._V1_.jpg",
+        "title": "Spider-Man: Lotus",
+        "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
+        "imdbRating": "8.1"
+    },
+    {
+        "id": "3",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/04/X-Men_-_Apocalypse.jpg",
+        "title": "X-Men: Apocalypse",
+        "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
+        "imdbRating": "8.1"
+    },
+    {
+        "id": "4",
+        "image": "https://c8.alamy.com/comp/2K3MF4R/300-2006-300-movie-poster-gerard-butler-2K3MF4R.jpg",
+        "title": "300 Spartans",
+        "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
+        "imdbRating": "8.1"
+    },
+    {
+        "id": "5",
+        "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00362457-naemheqxxq-portrait.jpg",
+        "title": "Kraven",
+        "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
+        "imdbRating": "8.1"
+    },
+    {
+        "id": "6",
+        "image": "https://images.jdmagicbox.com/movies/centralized_160288792024_03_26_05_40_29_220.jpg",
+        "title": "Godzilla Kong",
+        "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
+        "imdbRating": "8.1"
+    }
+]

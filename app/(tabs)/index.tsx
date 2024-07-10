@@ -7,6 +7,7 @@ import Colors from '@/constants/Colors'
 import {useHeaderHeight} from '@react-navigation/elements'
 import RecentMovieCard from '@/component/RecentUpcomingMovieCard/RecentUpcomingMovieCard'
 import RecommendedMovies from '@/component/RecommendedMovies/RecommendedMovies'
+import UpcomingMovies from '@/component/UpcomingMovies/UpcomingMovies'
 
 const home = () => {
   const headerHeight = useHeaderHeight();
@@ -45,6 +46,7 @@ const home = () => {
     </View>
     <RecentMovieCard />
     <RecommendedMovies />
+    <UpcomingMovies />
     </ScrollView>
     </View>
 </>

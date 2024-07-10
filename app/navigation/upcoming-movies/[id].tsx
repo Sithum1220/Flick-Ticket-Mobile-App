@@ -7,7 +7,7 @@ const MovieDetails = () => {
   const {id} = useLocalSearchParams();
   return (
     <View>
-      <Text>Recent Upcoming {id}</Text>
+      <Text>Upcoming Movies {id}</Text>
     </View>
   )
 }
