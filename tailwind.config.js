@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'custom-dark-transparent': 'rgba(0, 0, 0, 0.5)', // Example custom transparent dark color
-        // Add more custom colors as needed
+        'custom-dark-transparent': 'rgba(0, 0, 0, 0.5)',
       }
     },
   },
