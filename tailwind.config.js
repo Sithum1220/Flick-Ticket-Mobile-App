@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./app/**/*.{js,jsx,ts,tsx}","./component/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'custom-dark-transparent': 'rgba(0, 0, 0, 0.5)', // Example custom transparent dark color
+        // Add more custom colors as needed
+      }
+    },
   },
   plugins: [],
 }
