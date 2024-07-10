@@ -1,6 +1,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { View, Text, Image, TouchableOpacity, FlatList } from 'react-native';
 import RecentMovies from '@/data/recent-movies.json';
+import { Link } from 'expo-router';
 
 export default function RecentMovieCard() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,11 +48,13 @@ export default function RecentMovieCard() {
                 <Text className="text-lg text-white font-bold">{item.title}</Text>
                 <Text className="text-sm text-white">{item.bookingOpenDate}</Text>
               </View>
+              <Link href={`/movies/${item.id}`} asChild>
               <TouchableOpacity onPress={() => { }}>
                 <View className="bg-[#1D31A5] pb-1 px-2 rounded-2xl">
                   <Text className="text-white">Book Now</Text>
                 </View>
               </TouchableOpacity>
+              </Link>
             </View>
             <View className="bg-[#1D31A5] pb-1 p-1 px-2 rounded-lg absolute top-0 mt-2 ml-2 flex-row items-center">
               <Text className="text-white font-bold">Upcoming Movies</Text>
