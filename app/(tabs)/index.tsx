@@ -6,6 +6,7 @@ import { Ionicons } from '@expo/vector-icons'
 import Colors from '@/constants/Colors'
 import {useHeaderHeight} from '@react-navigation/elements'
 import RecentMovieCard from '@/component/RecentMovieCard/RecentMovieCard'
+import RecommendedMovies from '@/component/RecommendedMovies/RecommendedMovies'
 
 const home = () => {
   const headerHeight = useHeaderHeight();
@@ -15,7 +16,7 @@ const home = () => {
           headerTransparent: true,
           headerTitle: "",
     }}/>
-        <View className="bg-white p-4 pt-[15%]">
+    <View className="bg-white p-4 pt-[15%]">
       <View className="flex-row justify-between items-center">
         <View className="flex-row items-center">
           <Image
@@ -33,14 +34,18 @@ const home = () => {
           </View>
         </TouchableOpacity>
       </View>
+
+      <ScrollView contentContainerStyle={{ paddingBottom: 40}} showsVerticalScrollIndicator={false}>
       <View className="flex-row items-center bg-gray-200 rounded-xl mt-[6%] px-4 py-4">
         <Ionicons name='search' size={32} color={Colors.primaryColor} />
         <TextInput
           placeholder="Search"
           className="ml-2 flex-1 text-[10pxr] text-gray-700"
         />
-      </View>
+    </View>
     <RecentMovieCard />
+    <RecommendedMovies />
+    </ScrollView>
     </View>
 </>
   )
