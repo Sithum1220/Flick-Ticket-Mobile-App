@@ -5,7 +5,7 @@ import profilePic from '../../assets/images/profilePic.jpg'
 import { Ionicons } from '@expo/vector-icons'
 import Colors from '@/constants/Colors'
 import {useHeaderHeight} from '@react-navigation/elements'
-import RecentMovieCard from '@/component/RecentMovieCard/RecentMovieCard'
+import RecentMovieCard from '@/component/RecentUpcomingMovieCard/RecentUpcomingMovieCard'
 import RecommendedMovies from '@/component/RecommendedMovies/RecommendedMovies'
 
 const home = () => {
