@@ -1,7 +1,7 @@
 import { View, Text, Image,  TouchableOpacity, TextInput, ScrollView} from 'react-native'
 import React from 'react'
 import { Stack } from 'expo-router'
-import profilePic from '../../assets/images/profilePic.jpg'
+import profilePic from '../../assets/images/profilePic.jpeg'
 import { Ionicons } from '@expo/vector-icons'
 import Colors from '@/constants/Colors'
 import {useHeaderHeight} from '@react-navigation/elements'
@@ -18,15 +18,15 @@ const home = () => {
           headerTitle: "",
     }}/>
     <View className="bg-white p-4 pt-[15%]">
-      <View className="flex-row justify-between items-center">
+      <View className="flex-row justify-between items-center pb-[3%]">
         <View className="flex-row items-center">
           <Image
             source={profilePic}
             className="w-[65px] h-[65px] rounded-full"
           />
           <View className="ml-[5%]">
-            <Text className="text-lg text-gray-500">Welcome Back,</Text>
-            <Text className="text-2xl font-bold">Minato Namikaza</Text>
+            <Text className="text-md text-gray-400">Welcome Back,</Text>
+            <Text className="text-2xl font-bold">Sithum Imesh</Text>
           </View>
         </View>
         <TouchableOpacity>
@@ -36,7 +36,7 @@ const home = () => {
         </TouchableOpacity>
       </View>
 
-      <ScrollView contentContainerStyle={{ paddingBottom: 40}} showsVerticalScrollIndicator={false}>
+      <ScrollView contentContainerStyle={{ paddingBottom: 50}} showsVerticalScrollIndicator={false}>
       <View className="flex-row items-center bg-gray-200 rounded-xl mt-[6%] px-4 py-4">
         <Ionicons name='search' size={32} color={Colors.primaryColor} />
         <TextInput
