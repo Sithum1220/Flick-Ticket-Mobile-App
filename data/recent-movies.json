@@ -1,0 +1,17 @@
+[
+    {
+        "image":"../assets/images/recent_movies/turning_red.png",
+        "title":"Turning Red",
+        "bookingOpenDate":"Booking Open Date July 22, 2024"
+    },
+    {
+        "image":"../assets/images/recent_movies/bad-boys.jpg",
+        "title":"Bad Boys Red",
+        "bookingOpenDate":"Booking Open Date July 22, 2024"
+    },
+    {
+        "image":"../assets/images/recent_movies/incredible.png",
+        "title":"Incredibles",
+        "bookingOpenDate":"Booking Open Now"
+    }
+]

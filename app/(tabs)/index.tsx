@@ -1,10 +1,12 @@
-import { View, Text, Image,  TouchableOpacity, TextInput} from 'react-native'
+import { View, Text, Image,  TouchableOpacity, TextInput, ScrollView} from 'react-native'
 import React from 'react'
 import { Stack } from 'expo-router'
 import profilePic from '../../assets/images/profilePic.jpg'
 import { Ionicons } from '@expo/vector-icons'
 import Colors from '@/constants/Colors'
 import {useHeaderHeight} from '@react-navigation/elements'
+import RecentMovieCard from '@/component/RecentMovieCard/RecentMovieCard'
+import LanguageButton from '@/component/LanguageButton/LanguageButton'
 
 const home = () => {
   const headerHeight = useHeaderHeight();
@@ -39,6 +41,7 @@ const home = () => {
           className="ml-2 flex-1 text-[10pxr] text-gray-700"
         />
       </View>
+          <RecentMovieCard />
     </View>
 </>
   )
