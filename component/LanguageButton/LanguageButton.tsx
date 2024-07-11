@@ -11,11 +11,10 @@ export default function LanguageButton() {
      
   }
   return (
-    <View>
+    <View className='px-2'>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{
         gap: 20,
         paddingVertical: 10,
-        marginBottom: 10
       }}>
          {MovieLanguages.map((item,index) => ( 
           <TouchableOpacity key={index} ref={(el) => (itemRef.current[index] == el)} onPress={() => handleSelectLanguage(index)} className={`flex-row items-center p-2 rounded-lg border ${activeIndex === index ? 'bg-blue-700 border-blue-700' : 'bg-white border-blue-800'}`}>
