@@ -7,6 +7,7 @@ export interface MovieTypes {
   imdbImage: string;
   imdbRating: string;
   synopsis:string;
+  detailsImage:string;
   cast:{
     name: string;
     image: string;
