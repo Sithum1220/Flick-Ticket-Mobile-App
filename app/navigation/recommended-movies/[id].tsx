@@ -1,7 +1,7 @@
 import { View, Text, Image, ScrollView, TouchableOpacity, FlatList, Button } from 'react-native';
 import React from 'react';
 import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
-import { MovieTypes } from '@/types/TrendingMovieTypes';
+import { MovieTypes } from '@/types/MovieTypes';
 import RecommendedMovie from '@/data/recommended-movies.json';
 import { Feather, MaterialIcons } from '@expo/vector-icons';
 import Colors from '@/constants/Colors';

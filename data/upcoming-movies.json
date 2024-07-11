@@ -3,42 +3,198 @@
         "id": "1",
         "image": "https://m.media-amazon.com/images/M/MV5BNjRmNDI5MjMtMmFhZi00YzcwLWI4ZGItMGI2MjI0N2Q3YmIwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
         "title": "Black Widow",
+        "bookingOpenDate": "July 22, 2024",
+        "duration": "2 hrs 15 mins English",
         "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
-        "imdbRating": "8.1"
+        "imdbRating": "8.1/10",
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.",
+        "detailsImage": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/68dcf50c-2bb6-451f-ba5d-60779e65b447/cb2e60a8-4c14-48db-a335-bc58419174d4/1280x720/match/image.jpg",
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
     },
     {
         "id": "2",
         "image": "https://m.media-amazon.com/images/M/MV5BZjhmZTlkOTAtYTE0Yi00Yjg2LTg5M2UtNWNmNTZkZGM4ODRmXkEyXkFqcGdeQXVyMTI4NjgxNTk5._V1_.jpg",
         "title": "Spider-Man: Lotus",
+        "bookingOpenDate": "July 22, 2024",
+        "duration": "2 hrs 15 mins English",
         "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
-        "imdbRating": "8.1"
+        "imdbRating": "8.1/10",
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.",
+        "detailsImage": "https://i.ytimg.com/vi/mBrUx6M6R7U/maxresdefault.jpg",
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
     },
     {
         "id": "3",
         "image": "https://upload.wikimedia.org/wikipedia/en/0/04/X-Men_-_Apocalypse.jpg",
         "title": "X-Men: Apocalypse",
+        "bookingOpenDate": "July 22, 2024",
+        "duration": "2 hrs 15 mins English",
         "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
-        "imdbRating": "8.1"
+        "imdbRating": "8.1/10",
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.",
+        "detailsImage": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E98D13F91C06E25C7CE6DF8DBDF89862D9D193A8D0F24A04349A83C35F1101D7/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
     },
     {
         "id": "4",
         "image": "https://c8.alamy.com/comp/2K3MF4R/300-2006-300-movie-poster-gerard-butler-2K3MF4R.jpg",
         "title": "300 Spartans",
+       "bookingOpenDate": "July 22, 2024",
+        "duration": "2 hrs 15 mins English",
         "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
-        "imdbRating": "8.1"
+        "imdbRating": "8.1/10",
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.",
+        "detailsImage": "https://images.meesho.com/images/products/115122828/lwzm5_512.webp",
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
     },
     {
         "id": "5",
         "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00362457-naemheqxxq-portrait.jpg",
         "title": "Kraven",
+       "bookingOpenDate": "July 22, 2024",
+        "duration": "2 hrs 15 mins English",
         "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
-        "imdbRating": "8.1"
+        "imdbRating": "8.1/10",
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.",
+        "detailsImage": "https://api.tomorrowsindia.com/uploads/banner/uMyCqKbOO0Bjb5t8ERCy_Kraven-The-Hunter.jpg",
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
     },
     {
         "id": "6",
         "image": "https://images.jdmagicbox.com/movies/centralized_160288792024_03_26_05_40_29_220.jpg",
         "title": "Godzilla Kong",
+       "bookingOpenDate": "July 22, 2024",
+        "duration": "2 hrs 15 mins English",
         "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
-        "imdbRating": "8.1"
+        "imdbRating": "8.1/10",
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.",
+        "detailsImage": "https://portsvaevents.com/wp-content/uploads/2024/04/godzilla-x-kong-merchandise-box-art-13547.jpg",
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
     }
 ]
