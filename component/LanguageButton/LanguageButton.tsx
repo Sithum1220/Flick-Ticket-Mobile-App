@@ -11,7 +11,7 @@ export default function LanguageButton() {
      
   }
   return (
-    <View className='px-2'>
+    <View>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{
         gap: 20,
         paddingVertical: 10,

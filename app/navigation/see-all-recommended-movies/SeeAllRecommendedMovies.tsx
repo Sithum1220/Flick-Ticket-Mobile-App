@@ -2,7 +2,6 @@ import {
   View,
   Text,
   TouchableOpacity,
-  ScrollView,
   FlatList,
   Image,
 } from "react-native";
@@ -10,7 +9,6 @@ import React from "react";
 import { Link, Stack, useRouter } from "expo-router";
 import Colors from "@/constants/Colors";
 import { Feather } from "@expo/vector-icons";
-import { MovieTypes } from "@/types/MovieTypes";
 import RecommendedMovie from "@/data/recommended-movies.json";
 import LanguageButton from "@/component/LanguageButton/LanguageButton";
 
@@ -35,19 +33,20 @@ const SeeAllRecommendedMovies = () => {
         }}
       />
 
-        <View className="bg-white p-2">
+        <View className="bg-white p-4">
             <LanguageButton />
           <FlatList
             data={RecommendedMovie}
             numColumns={2}
             showsVerticalScrollIndicator={false}
             contentContainerStyle={{
-              gap: 5,
+              gap: 20,
               paddingVertical: 5,
               paddingBottom: 70,
             }}
+            columnWrapperStyle={{flex:1,justifyContent:'space-between'}}
             renderItem={({ item, index }) => (
-              <View key={index} className="w-[50%] p-2">
+              <View key={index} className="w-[48%]">
                 <Link
                   href={`/navigation/recommended-movie-details/${item.id}`}
                   asChild

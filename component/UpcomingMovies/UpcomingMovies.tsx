@@ -15,7 +15,9 @@ const UpcomingMovies = () => {
         <View className='mt-[5%]'>
             <View className='flex flex-row justify-between items-center'>
                 <Text className='font-bold text-lg'>Upcoming Movies</Text>
+                <Link href={`/navigation/see-all-upcoming-movies/SeeAllUpcomingMovies`} asChild>
                 <Text className='text-red-400 text-sm'>See All</Text>
+                </Link>
             </View>
           <FlatList 
           data={movies}
