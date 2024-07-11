@@ -42,9 +42,9 @@ const SeeAllRecommendedMovies = () => {
             numColumns={2}
             showsVerticalScrollIndicator={false}
             contentContainerStyle={{
-              gap: 20,
+              gap: 5,
               paddingVertical: 5,
-              marginBottom: 0,
+              paddingBottom: 70,
             }}
             renderItem={({ item, index }) => (
               <View key={index} className="w-[50%] p-2">
