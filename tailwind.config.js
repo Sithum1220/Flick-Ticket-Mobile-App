@@ -5,7 +5,11 @@ module.exports = {
     extend: {
       colors: {
         'custom-dark-transparent': 'rgba(0, 0, 0, 0.5)',
-      }
+      },
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        serif: ['Jost', 'sans']
+      },
     },
   },
   plugins: [],

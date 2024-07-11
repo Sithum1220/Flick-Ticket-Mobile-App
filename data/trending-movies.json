@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "image": "https://freestonecountytimesonline.com/wp-content/uploads/2022/03/movie-red.png",
+        "title": "Turning Red",
+        "bookingOpenDate": "July 22, 2024",
+        "duration": "2 hrs 15 mins English",
+        "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
+        "imdbRating": "8.1/10",
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.",
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "image": "https://ntvb.tmsimg.com/assets/p12028834_v_h8_al.jpg?w=1280&h=720",
+        "title": "Bad Boys",
+        "bookingOpenDate": "July 22, 2024",
+        "duration": "2 hrs 15 mins English",
+        "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
+        "imdbRating": "7.8/10",
+        "synopsis": "Two Miami detectives investigate a series of murders tied to a drug cartel.",
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "image": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D1132186CE39FC2A0B8DBC78BFF949962591F6A935E294D3FCC5CBCF64B33B6C/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+        "title": "Incredibles",
+        "bookingOpenDate": "Booking Open Now",
+        "duration": "1 hr 55 mins English",
+        "imdbImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/1280px-IMDB_Logo_2016.svg.png",
+        "imdbRating": "8.5/10",
+        "synopsis": "A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    }
+]

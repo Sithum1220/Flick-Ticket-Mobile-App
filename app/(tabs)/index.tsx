@@ -5,7 +5,7 @@ import profilePic from '../../assets/images/profilePic.jpeg'
 import { Ionicons } from '@expo/vector-icons'
 import Colors from '@/constants/Colors'
 import {useHeaderHeight} from '@react-navigation/elements'
-import RecentMovieCard from '@/component/RecentUpcomingMovieCard/RecentUpcomingMovieCard'
+import RecentMovieCard from '@/component/TrendingMovieCard/TrendingMovieCard'
 import RecommendedMovies from '@/component/RecommendedMovies/RecommendedMovies'
 import UpcomingMovies from '@/component/UpcomingMovies/UpcomingMovies'
 
