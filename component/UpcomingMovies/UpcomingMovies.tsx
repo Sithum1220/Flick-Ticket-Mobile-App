@@ -1,9 +1,16 @@
 import { View, Text, FlatList, Image, TouchableOpacity } from 'react-native'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import UpcomingMovie from '@/data/upcoming-movies.json';
 import { Link } from 'expo-router';
+import { MovieTypes } from '@/types/MovieTypes';
 
 const UpcomingMovies = () => {
+  const [movies, setMovies] = useState<MovieTypes[]>([]);
+
+  useEffect(() => {
+    setMovies(UpcomingMovie.slice(0, 5) as MovieTypes[]);
+    
+  }, []);
     return (
         <View className='mt-[5%]'>
             <View className='flex flex-row justify-between items-center'>
@@ -11,7 +18,7 @@ const UpcomingMovies = () => {
                 <Text className='text-red-400 text-sm'>See All</Text>
             </View>
           <FlatList 
-          data={UpcomingMovie}
+          data={movies}
           horizontal
           showsHorizontalScrollIndicator={false}
           contentContainerStyle={{
@@ -21,7 +28,7 @@ const UpcomingMovies = () => {
           }}
           renderItem={({item, index}) => (
             <View key={index} className='w-44'>
-                <Link href={`/navigation/upcoming-movies/${item.id}`} asChild>
+                <Link href={`/navigation/upcoming-movie-details/${item.id}`} asChild>
                 <TouchableOpacity>
                     <Image source={{ uri: item.image }} className="w-full h-60 rounded-xl" />
                     <View className='flex justify-between flex-row mt-[6%]'>

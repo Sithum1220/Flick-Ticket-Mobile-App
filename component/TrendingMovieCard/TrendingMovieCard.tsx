@@ -63,7 +63,7 @@ export default function RecentMovieCard() {
                 <Text className="text-lg text-white font-bold">{item.title}</Text>
                 <Text className="text-sm text-white">{item.bookingOpenDate}</Text>
               </View>
-              <Link href={`/navigation/trending-movies/${item.id}`} asChild>
+              <Link href={`/navigation/trending-movie-details/${item.id}`} asChild>
                 <TouchableOpacity onPress={() => { }}>
                   <View className="bg-[#1D31A5] pb-1 px-2 rounded-2xl">
                     <Text className="text-white">Book Now</Text>
