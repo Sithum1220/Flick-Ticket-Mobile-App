@@ -5,6 +5,7 @@ import { Feather } from '@expo/vector-icons'
 import { AntDesign } from '@expo/vector-icons';
 import Colors from '@/constants/Colors'
 import MyTicketButton from '@/component/MyTicketButton/MyTicketButton';
+import MyTicketCard from '@/component/MyTickets/MyTicket';
 
 const MyTicket = () => {
   const router = useRouter();
@@ -33,8 +34,9 @@ const MyTicket = () => {
           )
         }}
       />
-      <View>
+      <View className='bg-white flex p-4'>
         <MyTicketButton />
+        <MyTicketCard />
       </View>
     </>
   )
