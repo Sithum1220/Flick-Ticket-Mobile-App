@@ -17,3 +17,9 @@ Filick is a mobile application built with React Native and Expo for booking movi
 - **React Navigation**: For navigating between screens.
 - **TailwindCss**: For Styling.
 
+## Home Screen
+![home01](https://github.com/user-attachments/assets/c938c16a-5e3c-4bb3-9c62-8fbd9d68b463)
+![home](https://github.com/user-attachments/assets/210b60da-1423-4aaf-9cf4-bb764143ba73)
+
+
+
