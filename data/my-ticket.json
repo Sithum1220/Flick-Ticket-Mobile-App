@@ -1,32 +1,49 @@
 [
     {
+        "id":"1",
         "date" : "Movie on 27 June 2024",
         "time": "8:30 AM",
         "MovieName" : "Turning Red",
         "name" : "Sithum Imesh",
         "seats" : "2 Seats",
         "Status" : "Enter Room",
-        "image": "https://freestonecountytimesonline.com/wp-content/uploads/2022/03/movie-red.png"
-
+        "image": "https://freestonecountytimesonline.com/wp-content/uploads/2022/03/movie-red.png",
+        "price":"$62.00",
+        "appFee":"$2.50",
+        "TotalPrice":"$64.50",
+        "duration":"2 hrs 15 mins English",
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down."
     },
     {
+        "id":"2",
         "date" : "Movie on 27 July 2024",
         "time": "8:30 AM",
         "MovieName" : "Bad Boys",
         "name" : "Sithum Imesh",
         "seats" : "3 Seats",
         "Status" : "Enter Room",
-         "image": "https://ntvb.tmsimg.com/assets/p12028834_v_h8_al.jpg?w=1280&h=720"
+         "image": "https://ntvb.tmsimg.com/assets/p12028834_v_h8_al.jpg?w=1280&h=720",
+         "price":"$62.00",
+        "appFee":"$2.50",
+        "TotalPrice":"$64.50",
+        "duration":"2 hrs 15 mins English",
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down."
 
     },
     {
+        "id":"3",
         "date" : "Movie on 27 June 2024",
         "time": "8:30 AM",
         "MovieName" : "Black Widow",
         "name" : "Sithum Imesh",
         "seats" : "2 Seats",
         "Status" : "Upcoming",
-         "image": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/68dcf50c-2bb6-451f-ba5d-60779e65b447/cb2e60a8-4c14-48db-a335-bc58419174d4/1280x720/match/image.jpg"
+         "image": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/68dcf50c-2bb6-451f-ba5d-60779e65b447/cb2e60a8-4c14-48db-a335-bc58419174d4/1280x720/match/image.jpg",
+         "price":"$62.00",
+        "appFee":"$2.50",
+        "TotalPrice":"$64.50",
+        "duration":"2 hrs 15 mins English",
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down."
 
     }
 ]

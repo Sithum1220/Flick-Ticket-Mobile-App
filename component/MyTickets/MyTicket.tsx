@@ -2,6 +2,7 @@ import { View, Text, TouchableOpacity, ScrollView, FlatList } from "react-native
 import React from "react";
 import MyTicketDetails from "../../data/my-ticket.json";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { Link } from "expo-router";
 
 export default function MyTicket() {
   return (
@@ -15,6 +16,7 @@ export default function MyTicket() {
           paddingBottom: 150
         }}
         renderItem={({ item }) => (
+          <Link href={`/navigation/ticket-details/${item.id}`} asChild>
           <TouchableOpacity  onPress={() => {}}>
             <Text className="text-[16px] text-gray-600">{item.date}</Text>
             <View className=" bg-[#EEEEEE] rounded-xl mt-6">
@@ -72,6 +74,7 @@ export default function MyTicket() {
               </View>
             </View>
           </TouchableOpacity>
+          </Link>
         )}
         />
     </View>

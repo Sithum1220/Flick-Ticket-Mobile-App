@@ -5,6 +5,7 @@ import { MovieTypes } from '@/types/MovieTypes';
 import TrendingMovie from '@/data/trending-movies.json';
 import { Feather, MaterialIcons } from '@expo/vector-icons';
 import Colors from '@/constants/Colors';
+import BlueButton from '@/component/BlueButton/BlueButton';
 
 const MovieDetails = () => {
   const { id } = useLocalSearchParams();
@@ -87,11 +88,7 @@ const MovieDetails = () => {
               )}
             />
           </View>
-          <View className='mt-[2%] mb-[3%]'>
-          <TouchableOpacity className='bg-[#1D31A5] p-3 rounded-xl flex items-center' onPress={() => {}}>
-              <Text className='text-lg text-white font-bold'>Book Tickets</Text>
-            </TouchableOpacity>
-          </View>
+          <BlueButton name="Book Now"/>
         </View>
       </ScrollView>
     </>
