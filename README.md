@@ -1,4 +1,4 @@
-# Welcome Flick ticket Mobile App 👋
+# Welcome To Flick Ticket Mobile App 👋
 
 Filick is a mobile application built with React Native and Expo for booking movie tickets. Users can browse through the latest movies, check showtimes, choose their favorite seats, and book tickets with ease.
 
