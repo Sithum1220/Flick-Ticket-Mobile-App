@@ -1,8 +1,10 @@
-import { View, Text, TouchableOpacity, ScrollView, FlatList } from "react-native";
+import { View, Text, TouchableOpacity, ScrollView, FlatList, Dimensions } from "react-native";
 import React from "react";
 import MyTicketDetails from "../../data/my-ticket.json";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 import { Link } from "expo-router";
+import Svg, { Line } from "react-native-svg";
+const { width } = Dimensions.get('window');
 
 export default function MyTicket() {
   return (
@@ -40,10 +42,9 @@ export default function MyTicket() {
               </View>
               <View className="pt-4 flex flex-row justify-between items-center">
                 <View className="bg-white w-5 h-7 rounded-2xl"></View>
-                <Text>
-                  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-                  - - - - - - -
-                </Text>
+                <Svg height="40" width={width * 0.8}>
+                <Line x1="0" y1="20" x2={width} y2="20" stroke="black" strokeDasharray="5, 5" />
+              </Svg>
                 <View className="bg-white w-5 h-7 rounded-2xl"></View>
               </View>
 

@@ -42,7 +42,7 @@ const MovieDetails = () => {
         }}
       />
       <ScrollView showsVerticalScrollIndicator={false}>
-        <View className='p-4 bg-white'>
+        <View className='p-4 bg-white '>
           <Image className='w-full h-48 rounded-lg' source={{ uri: movies.detailsImage }} />
           <View className='mt-[10%] bg-gray-200 rounded-lg p-4 flex flex-row items-center justify-between'>
             <View className='flex flex-col gap-5'>
@@ -73,7 +73,6 @@ const MovieDetails = () => {
               contentContainerStyle={{
                 gap: 20,
                 paddingVertical: 20,
-                marginBottom: 0
               }}
               keyExtractor={(item, index) => index.toString()}
               renderItem={({ item }) => (

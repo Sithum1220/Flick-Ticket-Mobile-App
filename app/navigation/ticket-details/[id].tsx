@@ -1,4 +1,4 @@
-import { View, Text, TouchableOpacity, ScrollView, Image } from "react-native";
+import { View, Text, TouchableOpacity, ScrollView, Image, Dimensions } from "react-native";
 import React from "react";
 import { TicketTypes } from "@/types/TicketTypes";
 import Tickets from "@/data/my-ticket.json";
@@ -11,6 +11,8 @@ import {
 } from "@expo/vector-icons";
 import Colors from "@/constants/Colors";
 import BlueButton from "@/component/BlueButton/BlueButton";
+import Svg, { Line } from "react-native-svg";
+const { width } = Dimensions.get('window');
 
 export default function TicketDetails() {
   const { id } = useLocalSearchParams();
@@ -47,7 +49,7 @@ export default function TicketDetails() {
       />
 
       <ScrollView showsVerticalScrollIndicator={false}>
-        <View className="p-4 bg-white ">
+        <View className="p-4 bg-white h-screen">
           <View className="bg-[#EEEEEE] pt-12 px-4 rounded-xl">
             <View className="flex flex-row">
               <Image
@@ -95,10 +97,10 @@ export default function TicketDetails() {
                 <Text className="text-[16px] font-bold">{tickets.time}</Text>
               </View>
             </View>
-            <Text className="font-bold py-3">
-              - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-              -
-            </Text>
+          
+             <Svg height="40" className="w-full">
+                <Line x1="0" y1="20" x2={width} y2="20" stroke="black" strokeDasharray="5, 5" />
+              </Svg>
 
             <Text className="text-[18px] font-bold py-2">Price Details</Text>
             <View className="flex flex-col gap-6 pt-3">
