@@ -1,34 +1,36 @@
-import React from 'react'
-import { FontAwesome, Ionicons, MaterialIcons } from '@expo/vector-icons'
-import { Tabs } from 'expo-router'
-import Colors from '@/constants/Colors'
+import { Icons } from '@/components/Icons/Icons';
+import { FontAwesome, Ionicons, MaterialIcons } from '@expo/vector-icons';
+import { Stack, Tabs } from 'expo-router';
 
-export default function _layout() {
+
+export default function TabLayout() {
   return (
-    <Tabs screenOptions={{
-        tabBarStyle: {
-          backgroundColor: Colors.bgColor,
-          borderTopWidth: 0,
-          padding: 0,
-          height: 70,
-          paddingBottom: 20
-        },
-        tabBarLabelStyle: {
-          fontSize: 14
-        }
-      }}>
-      <Tabs.Screen name='index'  options={{tabBarLabel: "Home",tabBarIcon: ({color}) => (
-        <Ionicons name='home' size={24} color={ color } />
-      )}} /> 
-      <Tabs.Screen name='my_ticket' options={{tabBarLabel: "My Ticket", tabBarIcon: ({color}) => (
-        <Ionicons name='ticket' size={24} color={ color } />
-      )}} />
-      <Tabs.Screen name='favorite' options={{tabBarLabel: "Favorite", tabBarIcon: ({color}) => (
-       <MaterialIcons name="favorite" size={24} color={ color } />
-      )}} />
-      <Tabs.Screen name='profile' options={{tabBarLabel: "Profile", tabBarIcon: ({color}) => (
-       <FontAwesome name="user" size={24} color={ color } />
-      )}}/>
-     </Tabs>
-  )
+    <Tabs>
+      <Tabs.Screen name="index" options={{
+        tabBarLabel:"Home",
+        
+        tabBarIcon: ({ color, focused }) => (
+          <Icons IconComponent={Ionicons} name={focused ? 'home' : 'home-outline'} color={color} />
+        ),
+      }}/>
+      <Tabs.Screen name="MyTicket" options={{
+        tabBarLabel:"My Ticket",
+        tabBarIcon: ({ color, focused }) => (
+          <Icons size={24} IconComponent={Ionicons} name={focused ? 'ticket' : 'ticket-outline'} color={color} />
+        ),
+      }}/>
+      <Tabs.Screen name="Favorite" options={{
+        tabBarLabel:"Favorite",
+        tabBarIcon: ({ color, focused }) => (
+          <Icons size={24} IconComponent={MaterialIcons} name={focused ? 'favorite' : 'favorite-outline'} color={color} />
+        ),
+      }}/>
+      <Tabs.Screen name="Profile" options={{
+        tabBarLabel:"Profile",
+        tabBarIcon: ({ color, focused }) => (
+          <Icons size={24} IconComponent={FontAwesome} name={focused ? 'user' : 'user-o'} color={color} />
+        ),
+      }}/>
+    </Tabs>
+  );
 }

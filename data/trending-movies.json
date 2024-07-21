@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "image": "https://freestonecountytimesonline.com/wp-content/uploads/2022/03/movie-red.png",
+        "detailsImage": "https://freestonecountytimesonline.com/wp-content/uploads/2022/03/movie-red.png",
         "title": "Turning Red",
         "bookingOpenDate": "July 22, 2024",
         "duration": "2 hrs 15 mins English",
@@ -33,7 +33,7 @@
     },
     {
         "id": "2",
-        "image": "https://ntvb.tmsimg.com/assets/p12028834_v_h8_al.jpg?w=1280&h=720",
+        "detailsImage": "https://ntvb.tmsimg.com/assets/p12028834_v_h8_al.jpg?w=1280&h=720",
         "title": "Bad Boys",
         "bookingOpenDate": "July 22, 2024",
         "duration": "2 hrs 15 mins English",
@@ -65,7 +65,7 @@
     },
     {
         "id": "3",
-        "image": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D1132186CE39FC2A0B8DBC78BFF949962591F6A935E294D3FCC5CBCF64B33B6C/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+        "detailsImage": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D1132186CE39FC2A0B8DBC78BFF949962591F6A935E294D3FCC5CBCF64B33B6C/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
         "title": "Incredibles",
         "bookingOpenDate": "Booking Open Now",
         "duration": "1 hr 55 mins English",
