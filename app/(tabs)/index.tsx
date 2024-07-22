@@ -38,7 +38,7 @@ export default function Home() {
                   <Image
                     source={{
                       uri: "https://img.freepik.com/premium-vector/young-man-face-avater-vector-" +
-                          "illustration-design_968209-13.jpg",
+                          "illustration-design_968209-13.jpg"
                     }}
                     className="w-16 h-16 rounded-full"
                   />
