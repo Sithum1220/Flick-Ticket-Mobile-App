@@ -1,0 +1,78 @@
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  SafeAreaView,
+  ScrollView,
+  Image,
+} from "react-native";
+import React from "react";
+import { router, Stack, useLocalSearchParams } from "expo-router";
+import { MovieTypes } from "@/types/MovieTypes";
+import { Feather, MaterialCommunityIcons } from "@expo/vector-icons";
+import { Colors } from "@/constants/Colors";
+import { Icons } from "@/components/Icons/Icons";
+import DateButton from "@/components/DateButton/DateButton";
+import Dates from '@/data/date-buttons.json'
+import TimeButton from "@/components/TimeButton/TimeButton";
+
+export default function SelectSeat() {
+  return (
+    <>
+      <Stack.Screen
+        options={{
+          headerTitle: "Select Seat",
+          headerTitleStyle: {
+            fontSize: 20,
+            fontWeight: "bold",
+          },
+          headerShadowVisible: false,
+          headerLeft: () => (
+            <TouchableOpacity onPress={() => router.back()}>
+              <View className="mr-6 bg-black p-1 rounded-lg">
+                <Feather name="arrow-left" size={22} color={Colors.white} />
+              </View>
+            </TouchableOpacity>
+          ),
+        }}
+      />
+      <SafeAreaView className="bg-white flex-1">
+        <ScrollView>
+          <View className="mt-[6%] p-4">
+            <View>
+              <Image
+                source={require("../../../assets/images/audience_view.jpg")}
+                className="w-full h-44"
+              />
+            </View>
+
+            <View className="flex-row flex-wrap gap-2">
+              {Array.from({ length: 32 }).map((_, index) => (
+                <Icons
+                  key={index}
+                  IconComponent={MaterialCommunityIcons}
+                  name={"seat-outline"}
+                  size={44}
+                  color={"#6b7280"}
+                />
+              ))}
+            </View>
+
+            <View className="bg-gray-100 mt-[8%] rounded-t-3xl p-4">
+              <View className="flex-row gap-2">
+                <Text className="text-gray-600">Today is</Text>
+                <Text>05 July 2024</Text>
+              </View>
+              <View>
+              <Text className="text-xl font-bold pt-8 pb-2">Choose a day. July 2024</Text>
+              </View>
+              <DateButton />
+              
+              <TimeButton />
+            </View>
+          </View>
+        </ScrollView>
+      </SafeAreaView>
+    </>
+  );
+}
