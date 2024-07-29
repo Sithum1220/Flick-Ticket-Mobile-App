@@ -15,6 +15,7 @@ import { Icons } from "@/components/Icons/Icons";
 import DateButton from "@/components/DateButton/DateButton";
 import Dates from '@/data/date-buttons.json'
 import TimeButton from "@/components/TimeButton/TimeButton";
+import BlueButton from "@/components/BlueButton/BlueButton";
 
 export default function SelectSeat() {
   return (
@@ -38,7 +39,7 @@ export default function SelectSeat() {
       />
       <SafeAreaView className="bg-white flex-1">
         <ScrollView>
-          <View className="mt-[6%] p-4">
+          <View className="mt-[5%] p-4">
             <View>
               <Image
                 source={require("../../../assets/images/audience_view.jpg")}
@@ -58,7 +59,7 @@ export default function SelectSeat() {
               ))}
             </View>
 
-            <View className="bg-gray-100 mt-[8%] rounded-t-3xl p-4">
+            <View className="bg-gray-100 mt-[8%] rounded-3xl p-4">
               <View className="flex-row gap-2">
                 <Text className="text-gray-600">Today is</Text>
                 <Text>05 July 2024</Text>
@@ -67,8 +68,17 @@ export default function SelectSeat() {
               <Text className="text-xl font-bold pt-8 pb-2">Choose a day. July 2024</Text>
               </View>
               <DateButton />
-              
               <TimeButton />
+              <View className="items-center flex-row justify-between pt-4">
+                <View className="flex-row items-center">
+                  <Text className="mr-1 font-black text-xl">$83</Text>
+                  <Text className="text-sm">x</Text>
+                  <Text className="text-sm">3seats</Text>
+                </View>
+                <View>
+                <BlueButton name={'Confirm Seat'} p={'p-4'}/>
+                </View>
+              </View>
             </View>
           </View>
         </ScrollView>

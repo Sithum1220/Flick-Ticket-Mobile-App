@@ -18,7 +18,9 @@ export default function DateButton() {
       }}>
         
          {Dates.map((item,index) => ( 
-          <TouchableOpacity key={index} ref={(el) => (itemRef.current[index] == el)} onPress={() => handleSelectLanguage(index)} className={`flex-col gap-4 items-center p-4 rounded-2xl border ${activeIndex === index ? 'bg-red-400 border-transparent' : 'bg-white border-gray-500'}`}>
+          <TouchableOpacity key={index} ref={(el) => (itemRef.current[index] == el)} onPress={() => handleSelectLanguage(index)}
+           className={`flex-col gap-4 items-center p-4 rounded-2xl border ${activeIndex === index ? 'bg-red-400 border-transparent' :
+            'bg-white border-gray-500'}`}>
           <Text  className={`${activeIndex === index ? 'text-white' : 'text-gray-500'}`}>{item.day}</Text>
           <Text  className={`${activeIndex === index ? 'text-white' : 'text-gray-500'}`}>{item.date}</Text>
           </TouchableOpacity>
