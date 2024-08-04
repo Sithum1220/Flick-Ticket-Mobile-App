@@ -17,13 +17,7 @@ export default function MyTicket() {
              fontSize: 25,
              fontWeight: 'bold',
            },
-           headerLeft: () => (
-             <TouchableOpacity onPress={() => router.back()}>
-               <View className='mr-2 ml-4 bg-black p-1 rounded-lg'>
-                 <Feather name='arrow-left' size={28} color={Colors.white} />
-               </View>
-             </TouchableOpacity>
-           ),
+          
            headerRight: () => (
              <TouchableOpacity onPress={() => {}}>
                <View className='mr-3 p-1 rounded-lg'>

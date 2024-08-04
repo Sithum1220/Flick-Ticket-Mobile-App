@@ -89,9 +89,7 @@ export default function RegistrationScreen() {
             </Link>
           </TouchableOpacity>
           </View>
-          
         </View>
-       
       </View>
       </ScrollView>
       </SafeAreaView>

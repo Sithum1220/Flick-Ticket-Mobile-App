@@ -35,7 +35,7 @@ export default function SelectSeat() {
           headerLeft: () => (
             <TouchableOpacity onPress={() => router.back()}>
               <View className="mr-6 bg-black p-1 rounded-lg">
-                <Feather name="arrow-left" size={22} color={Colors.white} />
+                <Feather name="arrow-left" size={28} color={Colors.white} />
               </View>
             </TouchableOpacity>
           ),
