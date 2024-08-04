@@ -6,11 +6,9 @@ import {
   TouchableOpacity,
   Image,
   Dimensions,
-  TextInput,
 } from "react-native";
 import React from "react";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
-import BlueButton from "@/components/BlueButton/BlueButton";
 import {
   Feather,
   MaterialCommunityIcons,
@@ -21,6 +19,7 @@ import Svg, { Line } from "react-native-svg";
 import { Colors } from "@/constants/Colors";
 import { MovieTypes } from "@/types/MovieTypes";
 import Input from "@/components/Input/Input";
+import BlueButton from "@/components/BlueButton/BlueButton";
 const { width } = Dimensions.get("window");
 
 export default function CheckoutScreen() {
@@ -53,6 +52,7 @@ export default function CheckoutScreen() {
             fontSize: 25,
             fontWeight: "bold",
           },
+          headerShadowVisible:false,
           headerLeft: () => (
             <TouchableOpacity onPress={() => router.back()}>
               <View className="mr-6 bg-black p-1 rounded-lg">
@@ -66,7 +66,7 @@ export default function CheckoutScreen() {
       <SafeAreaView className="bg-white flex-1">
         <ScrollView showsVerticalScrollIndicator={false}>
           <View className="p-4 bg-white">
-            <View className="bg-[#EEEEEE] p-4 rounded-xl shadow-black shadow-md">
+            <View className="bg-[#EEEEEE] p-4 rounded-xl ">
               <View className="flex flex-row gap-4">
                 <View>
                   <Image
@@ -163,11 +163,24 @@ export default function CheckoutScreen() {
                 </View>
               </View>
             </View>
-            <View>
-              <Text>Enter Promo Code</Text>
-             <Input placeHolder={'Enter Promo code'} mt={'mt-[5%]'}/>
+            <View className="mt-[6%]">
+              <Text className="text-[18px] font-bold pt-2">
+                Enter Promo Code
+              </Text>
+              <Input
+                placeHolder={"Enter Promo code"}
+                mt={"mt-[3%]"}
+                IconComponent={MaterialCommunityIcons}
+                IconName={"brightness-percent"}
+                IconSize={24}
+                IconColor={Colors.primaryColor}
+              />
             </View>
-            {/* <BlueButton name="Download Ticket Pdf" p={"p-4"} /> */}
+            <BlueButton name="Pay Now" p={"p-4"} mt={'mt-[8%]'} 
+            onPress={() => {
+              router.navigate('/screen/PaymentMethodScreen/PaymentMethodScreen');
+            }}
+            />
           </View>
         </ScrollView>
       </SafeAreaView>
