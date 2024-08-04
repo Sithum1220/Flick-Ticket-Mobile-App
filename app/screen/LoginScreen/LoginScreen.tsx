@@ -7,7 +7,7 @@ import {
 } from "react-native";
 import React from "react";
 import { Link, Stack, useRouter } from "expo-router";
-import LoginInputs from "@/components/LoginInputs/LoginInputs";
+import InputWithTitle from "@/components/InputWithTitle/InputWithTitle";
 import { Feather, MaterialCommunityIcons } from "@expo/vector-icons";
 import { Colors } from "@/constants/Colors";
 import BlueButton from "@/components/BlueButton/BlueButton";
@@ -45,7 +45,7 @@ export default function LoginScreen() {
                 anytime, anywhere.
               </Text>
             </View>
-            <LoginInputs
+            <InputWithTitle
               title="Email Or Phone Number"
               placeHolder="email@example.com"
               IconComponent={MaterialCommunityIcons}
@@ -55,7 +55,7 @@ export default function LoginScreen() {
               mt={"mt-[4%]"}
               keyboardType={"email-address"}
             />
-            <LoginInputs
+            <InputWithTitle
               title="Password"
               placeHolder="Password"
               IconComponent={Feather}

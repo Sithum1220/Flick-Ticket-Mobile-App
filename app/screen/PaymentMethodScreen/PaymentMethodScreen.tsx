@@ -69,7 +69,9 @@ export default function PaymentMethodScreen() {
                 source={require("../../../assets/images/Card/Card.png")}
                 className="w-full h-60 mt-[5%]"
               />
-              <TouchableOpacity className="p-4 rounded-xl border border-red-400 items-center mt-[6%]">
+              <TouchableOpacity className="p-4 rounded-xl border border-red-400 items-center mt-[6%]" onPress={() => {
+                router.navigate('../AddNewCard/AddNewCard');
+              }}>
                 <Text className="text-xl text-red-400 font-semibold">
                   Add New Card
                 </Text>
@@ -127,12 +129,10 @@ export default function PaymentMethodScreen() {
             onRequestClose={() => {
               setModalVisible(!modalVisible);
             }}
-            
           >
             <View className="flex-1 justify-center items-center mt-6">
-              
               <View className="m-5 bg-white rounded-2xl p-9 items-center shadow-lg shadow-black">
-              <TouchableOpacity
+                <TouchableOpacity
                   className="absolute top-4 left-4 bg-gray-300 p-1 rounded-full"
                   onPress={() => setModalVisible(!modalVisible)}
                 >

@@ -8,7 +8,7 @@ import { useFonts, Kanit_400Regular } from "@expo-google-fonts/kanit";
 import { Colors } from "@/constants/Colors";
 import Input from "@/components/Input/Input";
 import { AntDesign, Feather, MaterialCommunityIcons } from "@expo/vector-icons";
-import LoginInputs from "@/components/LoginInputs/LoginInputs";
+import InputWithTitle from "@/components/InputWithTitle/InputWithTitle";
 import SignInMethod from "@/components/SignInMethod/SignInMethod";
 import { FullWindowOverlay } from "react-native-screens";
 
@@ -46,7 +46,7 @@ export default function RegistrationScreen() {
           </Text>
         </View>
 
-        <LoginInputs
+        <InputWithTitle
           title="Username"
           placeHolder="Username"
           IconComponent={AntDesign}
@@ -55,7 +55,7 @@ export default function RegistrationScreen() {
           IconName={"user"}
           mt={"mt-[4%]"}
         />
-        <LoginInputs
+        <InputWithTitle
           title="Email Or Phone Number"
           placeHolder="email@example.com"
           IconComponent={MaterialCommunityIcons}
@@ -65,7 +65,7 @@ export default function RegistrationScreen() {
           mt={"mt-[4%]"}
           keyboardType={"email-address"}
         />
-        <LoginInputs
+        <InputWithTitle
           title="Password"
           placeHolder="Password"
           IconComponent={Feather}
