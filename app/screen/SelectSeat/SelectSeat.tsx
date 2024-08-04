@@ -7,17 +7,21 @@ import {
   Image,
 } from "react-native";
 import React from "react";
-import { router, Stack, useLocalSearchParams } from "expo-router";
-import { MovieTypes } from "@/types/MovieTypes";
+import { router, Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { Feather, MaterialCommunityIcons } from "@expo/vector-icons";
 import { Colors } from "@/constants/Colors";
 import { Icons } from "@/components/Icons/Icons";
 import DateButton from "@/components/DateButton/DateButton";
-import Dates from '@/data/date-buttons.json'
+import Dates from "@/data/date-buttons.json";
 import TimeButton from "@/components/TimeButton/TimeButton";
 import BlueButton from "@/components/BlueButton/BlueButton";
 
 export default function SelectSeat() {
+  const router = useRouter();
+  const params = useLocalSearchParams();
+  const moviesParam = params.movies;
+  const id = params.id;
+
   return (
     <>
       <Stack.Screen
@@ -65,9 +69,16 @@ export default function SelectSeat() {
                 <Text>05 July 2024</Text>
               </View>
               <View>
-              <Text className="text-xl font-bold pt-8 pb-2">Choose a day. July 2024</Text>
+                <Text className="text-xl font-bold pt-8 pb-2">
+                  Choose a day. July 2024
+                </Text>
               </View>
               <DateButton />
+              <View>
+                <Text className="text-xl font-bold mt-[5%] pb-2">
+                  Choose a time
+                </Text>
+              </View>
               <TimeButton />
               <View className="items-center flex-row justify-between pt-4">
                 <View className="flex-row items-center">
@@ -76,7 +87,19 @@ export default function SelectSeat() {
                   <Text className="text-sm">3seats</Text>
                 </View>
                 <View>
-                <BlueButton name={'Confirm Seat'} p={'p-4'}/>
+                  <BlueButton
+                    name={"Confirm Seat"}
+                    p={"p-4"}
+                    onPress={() => {
+                      router.navigate({
+                        pathname: "/screen/CheckoutScreen/CheckoutScreen",
+                        params: {
+                          movies: params.movies,
+                          id: id,
+                        },
+                      });
+                    }}
+                  />
                 </View>
               </View>
             </View>

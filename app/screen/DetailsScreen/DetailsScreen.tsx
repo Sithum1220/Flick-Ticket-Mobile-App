@@ -13,7 +13,7 @@ import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { MovieTypes } from "@/types/MovieTypes";
 import BlueButton from "@/components/BlueButton/BlueButton";
 import { Feather, MaterialIcons } from "@expo/vector-icons";
-import { Colors } from "react-native/Libraries/NewAppScreen";
+import { Colors } from "@/constants/Colors";
 
 export default function DetailsScreen() {
   const router = useRouter();
@@ -124,8 +124,12 @@ export default function DetailsScreen() {
               mt={"mt-[2%]"}
               onPress={() => {
                 router.navigate({
-                  pathname: '/screen/SelectSeat/SelectSeat'
-              })
+                  pathname: "/screen/SelectSeat/SelectSeat",
+                  params: {
+                    movies: params.movies,
+                    id: movies.id,
+                  },
+                });
               }}
             />
           </View>
