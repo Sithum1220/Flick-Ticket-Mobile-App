@@ -6,7 +6,7 @@ import {
   ScrollView,
   Image,
 } from "react-native";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { router, Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { Feather, MaterialCommunityIcons } from "@expo/vector-icons";
 import { Colors } from "@/constants/Colors";
@@ -15,12 +15,27 @@ import DateButton from "@/components/DateButton/DateButton";
 import Dates from "@/data/date-buttons.json";
 import TimeButton from "@/components/TimeButton/TimeButton";
 import BlueButton from "@/components/BlueButton/BlueButton";
+import { MovieType } from "@/types/MovieType";
 
 export default function SelectSeat() {
   const router = useRouter();
   const params = useLocalSearchParams();
-  const moviesParam = params.movies;
-  const id = params.id;
+  const movieDetails: MovieType =
+    typeof params.movies === "string" ? JSON.parse(params.movies) : null;
+
+    const todayDate = (date: Date ) => {
+      return new Intl.DateTimeFormat("en-GB", {
+        day: "2-digit",
+        month: "long",
+        year: "numeric",
+      }).format(date);
+    };
+    const thisYear = (date: Date ) => {
+      return new Intl.DateTimeFormat("en-GB", {
+        month: "long",
+        year: "numeric",
+      }).format(date);
+    };
 
   return (
     <>
@@ -28,7 +43,7 @@ export default function SelectSeat() {
         options={{
           headerTitle: "Select Seat",
           headerTitleStyle: {
-            fontSize: 20,
+            fontSize: 25,
             fontWeight: "bold",
           },
           headerShadowVisible: false,
@@ -51,8 +66,9 @@ export default function SelectSeat() {
               />
             </View>
 
+
             <View className="flex-row flex-wrap gap-2">
-              {Array.from({ length: 32 }).map((_, index) => (
+              {Array.from({ length: movieDetails.totalSheat }).map((_, index) => (
                 <Icons
                   key={index}
                   IconComponent={MaterialCommunityIcons}
@@ -66,38 +82,39 @@ export default function SelectSeat() {
             <View className="bg-gray-100 mt-[8%] rounded-3xl p-4">
               <View className="flex-row gap-2">
                 <Text className="text-gray-600">Today is</Text>
-                <Text>05 July 2024</Text>
+                <Text className="text-gray-600">{todayDate(new Date())}</Text>
               </View>
-              <View>
-                <Text className="text-xl font-bold pt-8 pb-2">
-                  Choose a day. July 2024
+              <View className="flex-1 flex-row pt-8 pb-2 gap-2 items-center">
+                <Text className="text-xl font-bold">
+                  Choose a day.
                 </Text>
+                <Text className="text-xl font-bold">{thisYear(new Date())}</Text>
               </View>
-              <DateButton />
+              <DateButton dates={movieDetails.startingDates}/>
               <View>
                 <Text className="text-xl font-bold mt-[5%] pb-2">
                   Choose a time
                 </Text>
               </View>
-              <TimeButton />
-              <View className="items-center flex-row justify-between pt-4">
-                <View className="flex-row items-center">
+              <TimeButton times={movieDetails.startingTimes}/>
+              <View className="items-center flex-row justify-end pt-4">
+                {/* <View className="flex-row items-center">
                   <Text className="mr-1 font-black text-xl">$83</Text>
                   <Text className="text-sm">x</Text>
                   <Text className="text-sm">3seats</Text>
-                </View>
+                </View> */}
                 <View>
                   <BlueButton
                     name={"Confirm Seat"}
                     p={"p-4"}
                     onPress={() => {
-                      router.navigate({
-                        pathname: "/screen/CheckoutScreen/CheckoutScreen",
-                        params: {
-                          movies: params.movies,
-                          id: id,
-                        },
-                      });
+                      // router.navigate({
+                      //   pathname: "/screen/CheckoutScreen/CheckoutScreen",
+                      //   params: {
+                      //     movies: params.movies,
+                      //     id: id,
+                      //   },
+                      // });
                     }}
                   />
                 </View>

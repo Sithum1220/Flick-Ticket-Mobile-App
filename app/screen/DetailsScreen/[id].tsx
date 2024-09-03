@@ -144,13 +144,12 @@ export default function DetailsScreen() {
               p={"p-4"}
               mt={"mt-[2%]"}
               onPress={() => {
-                // router.navigate({
-                //   pathname: "/screen/SelectSeat/SelectSeat",
-                //   params: {
-                //     movies: params.movies,
-                //     id: movies.id,
-                //   },
-                // });
+                router.navigate({
+                  pathname: "/screen/SelectSeat/SelectSeat",
+                  params: {
+                    movies: JSON.stringify(movieDetails)
+                  },
+                }); 
               }}
             />
           </View>
