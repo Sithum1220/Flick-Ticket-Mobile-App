@@ -11,6 +11,7 @@ export default function SeeAllScreen() {
 
     const movieList = typeof moviesParam === 'string' ? JSON.parse(moviesParam) : [];
 
+    console.log(movieList)
     return (
         <>
             <Stack.Screen
@@ -48,14 +49,14 @@ export default function SeeAllScreen() {
                         <View key={index} className="w-[48%]">
                             <TouchableOpacity>
                                 <Image
-                                    source={{ uri: item.image }}
+                                    source={{ uri: item.displayImage }}
                                     className="w-[100%] h-64 rounded-xl"
                                 />
                                 <View className="flex justify-between flex-row mt-[6%] px-1">
-                                    <Text className="text-[10px]">{item.title}</Text>
+                                    <Text className="text-[13px]">{item.movieName}</Text>
                                     <View className="flex justify-between flex-row items-center gap-2">
                                         <Image
-                                            source={{ uri: item.imdbImage }}
+                                            source={require('../../../assets/images/imdb/imdb.png')}
                                             className="w-7 h-3"
                                         />
                                         <Text className="text-[10px]">{item.imdbRating}</Text>

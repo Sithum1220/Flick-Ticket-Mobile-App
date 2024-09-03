@@ -4,6 +4,7 @@ export const Colors = {
  primaryColor: '#f87171',
  bgColor:"#EEEEEE",
  blue:"#1D31A5",
+ darkTransparent: "rgba(0, 0, 0, 0.5)",
  
  icon:{
   blue:"#1D31A5",

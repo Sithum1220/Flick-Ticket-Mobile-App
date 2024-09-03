@@ -8,27 +8,48 @@ import {
   SafeAreaView,
   FlatList,
 } from "react-native";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import { MovieTypes } from "@/types/MovieTypes";
 import BlueButton from "@/components/BlueButton/BlueButton";
 import { Feather, MaterialIcons } from "@expo/vector-icons";
 import { Colors } from "@/constants/Colors";
+import { MovieType } from "@/types/MovieType";
+import movies from '@/data/movies.json';
 
 export default function DetailsScreen() {
   const router = useRouter();
-  const params = useLocalSearchParams();
-  const moviesParam = params.movies;
-  const id = params.id;
+  const {id} = useLocalSearchParams();
+  const movieId = typeof id === 'number' ? id : Number(id);
 
-  const movieList =
-    typeof moviesParam === "string" ? JSON.parse(moviesParam) : [];
+  const [isLoading, setIsLoading] = useState(true);
+  const [movieDetails, setMovieDetails] = useState<MovieType | undefined>(undefined);
 
-  const movies: MovieTypes | undefined = (
-    movieList as unknown as MovieTypes[]
-  ).find((item) => item.id == id);
+  useEffect(() => {
+    const fetchMovieDetails = () => {
+      const foundMovie = movies.find((item) => item.id === movieId);
+      if (foundMovie) {
+        //@ts-ignore
+        setMovieDetails(foundMovie);
+      } else {
+        console.error(`No movie found with id: ${movieId}`);
+      }
+      setIsLoading(false);
+    };
+  
+    // Simulate API call
+    setTimeout(fetchMovieDetails, 1000);
+  }, [movieId]);
 
-  if (!movies) {
+  if (isLoading) {
+    return (
+      <View className="flex-1 justify-center items-center bg-white">
+        <Text>Loading...</Text>
+      </View>
+    );
+  }
+
+  if (!movieDetails) {
     return (
       <View className="p-4 bg-white">
         <Text>Movie not found</Text>
@@ -40,7 +61,7 @@ export default function DetailsScreen() {
     <>
       <Stack.Screen
         options={{
-          headerTitle: `${movies.title}`,
+          headerTitle: `${movieDetails.movieName}`,
           headerTitleStyle: {
             fontSize: 25,
             fontWeight: "bold",
@@ -61,24 +82,24 @@ export default function DetailsScreen() {
           <View className="p-4 bg-white">
             <Image
               className="w-full h-56 rounded-lg"
-              source={{ uri: movies.detailsImage }}
+              source={{ uri: movieDetails.mainImage }}
             />
             <View className="mt-[10%] bg-gray-200 rounded-lg p-4 flex flex-row items-center justify-between">
               <View className="flex flex-col gap-5">
-                <Text className="text-2xl font-bold">{movies.title}</Text>
+                <Text className="text-2xl font-bold">{movieDetails.movieName}</Text>
                 <Text className="text-[16px] text-gray-600">
-                  {movies.duration}
+                  {`${movieDetails.duration.hrs} hrs ${movieDetails.duration.min} min   ${movieDetails.language}`}
                 </Text>
               </View>
               <View className="flex flex-col gap-6 items-end">
                 <MaterialIcons name="favorite-outline" size={28} />
                 <View className="flex flex-row items-center justify-center">
                   <Image
-                    source={{ uri: movies.imdbImage }}
+                    source={require('../../../assets/images/imdb/imdb.png')}
                     className="w-7 h-3"
                   />
                   <Text className="ml-3 text-sm text-gray-600">
-                    {movies.imdbRating}
+                    {`${movieDetails.imdbRating}/10`}
                   </Text>
                 </View>
               </View>
@@ -88,14 +109,14 @@ export default function DetailsScreen() {
               <View className="flex flex-col gap-4">
                 <Text className="text-xl font-bold ">Synopsis</Text>
                 <Text className="leading-5 text-gray-600">
-                  {movies.synopsis}
+                  {movieDetails.synopsis}
                 </Text>
               </View>
             </View>
             <View className="mt-[6%]">
               <Text className="text-xl font-bold ">Cast</Text>
               <FlatList
-                data={movies.cast}
+                data={movieDetails.cast}
                 horizontal
                 showsHorizontalScrollIndicator={false}
                 contentContainerStyle={{
@@ -123,13 +144,13 @@ export default function DetailsScreen() {
               p={"p-4"}
               mt={"mt-[2%]"}
               onPress={() => {
-                router.navigate({
-                  pathname: "/screen/SelectSeat/SelectSeat",
-                  params: {
-                    movies: params.movies,
-                    id: movies.id,
-                  },
-                });
+                // router.navigate({
+                //   pathname: "/screen/SelectSeat/SelectSeat",
+                //   params: {
+                //     movies: params.movies,
+                //     id: movies.id,
+                //   },
+                // });
               }}
             />
           </View>

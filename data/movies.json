@@ -1,0 +1,1496 @@
+[
+    {
+        "id": 1,
+        "category":"Trending Movies",
+        "mainImage": "https://freestonecountytimesonline.com/wp-content/uploads/2022/03/movie-red.png",
+        "displayImage": "https://freestonecountytimesonline.com/wp-content/uploads/2022/03/movie-red.png",
+        "movieName": "Turning Red",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.",
+        "bookingOpenDate": {
+            "month": "July",
+            "day": 22,
+            "year":2024
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category":"Trending Movies",
+        "mainImage": "https://ntvb.tmsimg.com/assets/p12028834_v_h8_al.jpg?w=1280&h=720",
+        "displayImage": "https://ntvb.tmsimg.com/assets/p12028834_v_h8_al.jpg?w=1280&h=720",
+        "movieName": "Bad Boys",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "Two Miami detectives investigate a series of murders tied to a drug cartel.",
+        "bookingOpenDate": {
+            "month": "July",
+            "day": 22,
+            "year":2024
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "category":"Trending Movies",
+        "mainImage": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D1132186CE39FC2A0B8DBC78BFF949962591F6A935E294D3FCC5CBCF64B33B6C/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+        "displayImage": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/D1132186CE39FC2A0B8DBC78BFF949962591F6A935E294D3FCC5CBCF64B33B6C/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+        "movieName": "The Incredibles",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+            "month": "July",
+            "day": 22,
+            "year":2024
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "category":"Recommended Movies",
+        "mainImage": "https://ntvb.tmsimg.com/assets/p12028834_v_h8_al.jpg?w=1280&h=720",
+        "displayImage": "https://play-lh.googleusercontent.com/C_o7rTHCPsf2rn22_P1UpUJ9a8q1QRAEAfp7p6Hz90pqA8basJOfIdqi1eWMlSWMjptkb5DaXyA6LedvQgs=w240-h480-rw",
+        "movieName": "Bad Boys",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "category":"Recommended Movies",
+        "mainImage": "https://www.animationxpress.com/wp-content/uploads/2022/06/1_osEZ8mAJwY5bqhXUsyKAKg.jpeg",
+        "displayImage": "https://m.media-amazon.com/images/M/MV5BOTBiYTBkYTItM2E2OS00NTY2LWE5MmEtZjdjMzkyYTk5MjJiXkEyXkFqcGdeQXVyMTA1NjE5MTAz._V1_.jpg",
+        "movieName": "The Smurfs",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "category":"Recommended Movies",
+        "mainImage": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/6E3379DBFDA41CF305BFD7FE6D14FDB5F901F0CDC9B27C66D7E6FBEA2864B4F2/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+        "displayImage": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_.jpg",
+        "movieName": "The Lion King",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "category":"Recommended Movies",
+        "mainImage": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/783F99F37062DCE97ABDE66BA2FE84F1885382908D4B25F48E25B57021ECC256/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+        "displayImage": "https://upload.wikimedia.org/wikipedia/en/2/23/Deadpool_%282016_poster%29.png",
+        "movieName": "DeadPool",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "category":"Recommended Movies",
+        "mainImage": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A546B855C2A59B8BFB5BD69B1A8FCA0AD898E3A17AF8286930B33F1E343508DE/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+        "displayImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ2LdqtW50cJ8pg71TPNb4zpC60gTEQNAk5-c5L4QiB4XoqMFmAqKKvFrrLbrg4kAKqkQ&usqp=CAU",
+        "movieName": "Aladdin",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "category":"Recommended Movies",
+        "mainImage": "https://movies.sterkinekor.co.za/CDN/media/entity/get/FilmTitleGraphic/HO00002972?referenceScheme=HeadOffice&allowPlaceHolder=true",
+        "displayImage": "https://www.dreamworks.com/storage/cms-uploads/kung-fu-panda-4-he-poster.jpg",
+        "movieName": "Kung Fu Panda 4",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "category":"Upcomming Movies",
+        "mainImage": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/5359769168001/68dcf50c-2bb6-451f-ba5d-60779e65b447/cb2e60a8-4c14-48db-a335-bc58419174d4/1280x720/match/image.jpg",
+        "displayImage": "https://m.media-amazon.com/images/M/MV5BNjRmNDI5MjMtMmFhZi00YzcwLWI4ZGItMGI2MjI0N2Q3YmIwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpgs",
+        "movieName": "Black Widow",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "category":"Upcomming Movies",
+        "mainImage": "https://i.ytimg.com/vi/mBrUx6M6R7U/maxresdefault.jpg",
+        "displayImage": "https://m.media-amazon.com/images/M/MV5BZjhmZTlkOTAtYTE0Yi00Yjg2LTg5M2UtNWNmNTZkZGM4ODRmXkEyXkFqcGdeQXVyMTI4NjgxNTk5._V1_.jpg",
+        "movieName": "Spider-Man: Lotus",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "category":"Upcomming Movies",
+        "mainImage": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E98D13F91C06E25C7CE6DF8DBDF89862D9D193A8D0F24A04349A83C35F1101D7/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+        "displayImage": "https://upload.wikimedia.org/wikipedia/en/0/04/X-Men_-_Apocalypse.jpg",
+        "movieName": "X-Men: Apocalypse",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "category":"Upcomming Movies",
+        "mainImage": "https://images.meesho.com/images/products/115122828/lwzm5_512.webp",
+        "displayImage": "https://c8.alamy.com/comp/2K3MF4R/300-2006-300-movie-poster-gerard-butler-2K3MF4R.jpg",
+        "movieName": "300 Spartans",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "category":"Upcomming Movies",
+        "mainImage": "https://api.tomorrowsindia.com/uploads/banner/uMyCqKbOO0Bjb5t8ERCy_Kraven-The-Hunter.jpg",
+        "displayImage": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC/et00362457-naemheqxxq-portrait.jpg",
+        "movieName": "Kraven",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "category":"Upcomming Movies",
+        "mainImage": "https://portsvaevents.com/wp-content/uploads/2024/04/godzilla-x-kong-merchandise-box-art-13547.jpg",
+        "displayImage": "https://images.jdmagicbox.com/movies/centralized_160288792024_03_26_05_40_29_220.jpg",
+        "movieName": "Godzilla Kong",
+        "imdbRating": 8.1,
+        "language":"English",
+        "oneSheatPrice": 20,
+        "totalSheat": 30,
+        "synopsis": "When a teenager in Toronto discovers she can transform into a giant red panda, her life is turned upside down.A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.",
+        "bookingOpenDate": {
+        },
+        "duration": {
+            "hrs": 2,
+            "min": 40
+        },
+        "startingTimes":["08:00 AM","08:30 AM","09:00 AM","11:30 AM","12:30 PM","02:00 PM","05:30 PM","08:30 PM"],
+        "startingDates":[
+            {
+                "day":"Mon",
+                "date":1
+            },
+            {
+                "day":"Wed",
+                "date":3   
+            },
+            {
+                "day":"Fri",
+                "date":5   
+            },
+            {
+                "day":"Mon",
+                "date":8
+            },
+            {
+                "day":"Wed",
+                "date":10   
+            },
+            {
+                "day":"Fri",
+                "date":12   
+            },
+            {
+                "day":"Mon",
+                "date":15
+            },
+            {
+                "day":"Wed",
+                "date":17   
+            },
+            {
+                "day":"Fri",
+                "date": 19  
+            },
+            {
+                "day":"Mon",
+                "date":22
+            },
+            {
+                "day":"Wed",
+                "date":24   
+            },
+            {
+                "day":"Fri",
+                "date":26   
+            },
+            {
+                "day":"Mon",
+                "date":29
+            },
+            {
+                "day":"Wed",
+                "date":31   
+            }
+        ],
+        "cast": [
+            {
+                "name": "Rosalie Chiang",
+                "image": "https://assets.mycast.io/actor_images/actor-rosalie-chiang-378486_large.jpg?1646460616"
+            },
+            {
+                "name": "Sandra Oh",
+                "image": "https://static.wikia.nocookie.net/disney/images/8/8a/Sandra_Oh.jpg/revision/latest?cb=20180123225213"
+            },
+            {
+                "name": "Ava Morse",
+                "image": "https://pics.filmaffinity.com/073738945150370-nm_200.jpg"
+            },
+            {
+                "name": "James Hong",
+                "image": "https://media.themoviedb.org/t/p/w500/v3lfw5aHOy0paOCx6WHiSnwzbH0.jpg"
+            },
+            {
+                "name": "Hyein Park",
+                "image": "https://static.wikia.nocookie.net/disney/images/2/24/Hyein_Park.jpg/revision/latest?cb=20220405012253"
+            }
+        ]
+    }
+]
