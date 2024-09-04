@@ -6,6 +6,7 @@ type IconComponentType = React.ComponentType<IconProps<any>>;
 
 interface TabBarIconProps extends IconProps<any> {
   IconComponent: IconComponentType;
+
 }
 
 export function Icons({ IconComponent, style, ...rest }: TabBarIconProps) {

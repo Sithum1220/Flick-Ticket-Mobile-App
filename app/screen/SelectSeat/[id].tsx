@@ -23,19 +23,36 @@ export default function SelectSeat() {
   const movieDetails: MovieType =
     typeof params.movies === "string" ? JSON.parse(params.movies) : null;
 
-    const todayDate = (date: Date ) => {
-      return new Intl.DateTimeFormat("en-GB", {
-        day: "2-digit",
-        month: "long",
-        year: "numeric",
-      }).format(date);
-    };
-    const thisYear = (date: Date ) => {
-      return new Intl.DateTimeFormat("en-GB", {
-        month: "long",
-        year: "numeric",
-      }).format(date);
-    };
+  // State to track selected seats
+  const [selectedSeats, setSelectedSeats] = useState<number[]>([]);
+  const [selectedDate, setSelectedDate] = useState<number>(0)
+
+  const todayDate = (date: Date) => {
+    return new Intl.DateTimeFormat("en-GB", {
+      day: "2-digit",
+      month: "long",
+      year: "numeric",
+    }).format(date);
+  };
+
+  const thisYear = (date: Date) => {
+    return new Intl.DateTimeFormat("en-GB", {
+      month: "long",
+      year: "numeric",
+    }).format(date);
+  };
+
+  const toggleSeatSelection = (index: number) => {
+    setSelectedSeats((prevSelectedSeats) => {
+      if (prevSelectedSeats.includes(index)) {
+        // Deselect the seat
+        return prevSelectedSeats.filter((seatIndex) => seatIndex !== index);
+      } else {
+        // Select the seat
+        return [...prevSelectedSeats, index];
+      }
+    });
+  };
 
   return (
     <>
@@ -66,16 +83,20 @@ export default function SelectSeat() {
               />
             </View>
 
-
+            {/* Seats */}
             <View className="flex-row flex-wrap gap-2">
               {Array.from({ length: movieDetails.totalSheat }).map((_, index) => (
-                <Icons
+                <TouchableOpacity
                   key={index}
-                  IconComponent={MaterialCommunityIcons}
-                  name={"seat-outline"}
-                  size={44}
-                  color={"#6b7280"}
-                />
+                  onPress={() => toggleSeatSelection(index)}
+                >
+                  <Icons
+                    IconComponent={MaterialCommunityIcons}
+                    name={"seat-outline"}
+                    size={44}
+                    color={selectedSeats.includes(index) ? `${Colors.primaryColor}` : "#6b7280"}
+                  />
+                </TouchableOpacity>
               ))}
             </View>
 
@@ -85,18 +106,16 @@ export default function SelectSeat() {
                 <Text className="text-gray-600">{todayDate(new Date())}</Text>
               </View>
               <View className="flex-1 flex-row pt-8 pb-2 gap-2 items-center">
-                <Text className="text-xl font-bold">
-                  Choose a day.
-                </Text>
+                <Text className="text-xl font-bold">Choose a day.</Text>
                 <Text className="text-xl font-bold">{thisYear(new Date())}</Text>
               </View>
-              <DateButton dates={movieDetails.startingDates}/>
+              <DateButton dates={movieDetails.startingDates} onDateSelect={setSelectedDate}/>
               <View>
                 <Text className="text-xl font-bold mt-[5%] pb-2">
                   Choose a time
                 </Text>
               </View>
-              <TimeButton times={movieDetails.startingTimes}/>
+              <TimeButton times={movieDetails.startingTimes} />
               <View className="items-center flex-row justify-end pt-4">
                 {/* <View className="flex-row items-center">
                   <Text className="mr-1 font-black text-xl">$83</Text>
@@ -108,13 +127,14 @@ export default function SelectSeat() {
                     name={"Confirm Seat"}
                     p={"p-4"}
                     onPress={() => {
-                      // router.navigate({
-                      //   pathname: "/screen/CheckoutScreen/CheckoutScreen",
-                      //   params: {
-                      //     movies: params.movies,
-                      //     id: id,
-                      //   },
-                      // });
+                      router.navigate({
+                        pathname: "/screen/CheckoutScreen/CheckoutScreen",
+                        params: {
+                          movies: JSON.stringify(movieDetails),
+                          id: movieDetails.id,
+                          seats: JSON.stringify(selectedSeats)
+                        },
+                      });
                     }}
                   />
                 </View>

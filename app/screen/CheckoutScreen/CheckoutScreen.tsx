@@ -7,7 +7,7 @@ import {
   Image,
   Dimensions,
 } from "react-native";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Stack, useLocalSearchParams, useRouter } from "expo-router";
 import {
   Feather,
@@ -17,25 +17,31 @@ import {
 } from "@expo/vector-icons";
 import Svg, { Line } from "react-native-svg";
 import { Colors } from "@/constants/Colors";
-import { MovieTypes } from "@/types/MovieTypes";
 import Input from "@/components/Input/Input";
 import BlueButton from "@/components/BlueButton/BlueButton";
+import { MovieType } from "@/types/MovieType";
 const { width } = Dimensions.get("window");
 
 export default function CheckoutScreen() {
   const router = useRouter();
   const params = useLocalSearchParams();
   const moviesParam = params.movies;
-  const id = params.id;
+  const id =  params.id;
+  const seatsArray = params.seats;
+  // const [seats, setSeats] = useState([])
 
-  const movieList =
+  // useEffect(() => {
+  // setSeats(params.seats);
+  // },[seats])
+  
+ 
+  const movie:MovieType =
     typeof moviesParam === "string" ? JSON.parse(moviesParam) : [];
 
-  const movies: MovieTypes | undefined = (
-    movieList as unknown as MovieTypes[]
-  ).find((item) => item.id == id);
-
-  if (!movies) {
+    const seats =
+    typeof seatsArray === "string" ? JSON.parse(seatsArray) : [];
+  console.log(seats)
+  if (!movie) {
     return (
       <View className="p-4 bg-white">
         <Text>Movie not found</Text>
@@ -70,21 +76,21 @@ export default function CheckoutScreen() {
               <View className="flex flex-row gap-4">
                 <View>
                   <Image
-                    source={{ uri: movies.image }}
+                    source={{ uri: movie.displayImage }}
                     className="w-32 h-32 rounded-xl"
                   />
                 </View>
                 <View className="flex-1">
-                  <Text className="text-4xl font-bold">{movies.title}</Text>
+                  <Text className="text-4xl font-bold">{movie.movieName}</Text>
                   <Text className="text-gray-600 font-semibold">
-                    {movies.duration}
+                    {`${movie.duration.hrs} hrs ${movie.duration.min} min`}
                   </Text>
                   <View className="w-full pt-2">
                     <Text
                       className="text-[10px] text-gray-600"
                       numberOfLines={3}
                     >
-                      {movies.synopsis}
+                      {movie.synopsis}
                     </Text>
                   </View>
                 </View>
@@ -103,7 +109,7 @@ export default function CheckoutScreen() {
                     />
                     <Text className="text-gray-600 text-[16px]">Seats</Text>
                   </View>
-                  <Text className="text-[16px] font-bold">2 Seats</Text>
+                  <Text className="text-[16px] font-bold">{`${seats?.length} Seat`}</Text>
                 </View>
 
                 <View className="flex flex-row justify-between items-center">
